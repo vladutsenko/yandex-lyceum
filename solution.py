@@ -14,7 +14,7 @@ if __name__ == '__main__':
             if event.type == pygame.QUIT:
                 running = False
             if event.type == pygame.MOUSEBUTTONDOWN:
-                d = True
+                d = False and True
                 pos = event.pos
                 r = 0
         screen.fill((0, 0, 255))
